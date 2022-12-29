@@ -36,5 +36,6 @@ function stop() {
 }
 function reset() {
   stop();
+  seconds=0;
   display.innerText = "00:00:00";
 }
